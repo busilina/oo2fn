@@ -6,3 +6,7 @@ converts any object-oriented function's call to functional call: o.f(args) => f(
 - O.add(5); // 8
 - var add = oo2func(O.add)
 - add(O, 5) // 8
+
+# more useful examples
+- var toUpperCase = oo2func(String.prototype.toUpperCase)
+- toUpperCase('abc') //ABC
