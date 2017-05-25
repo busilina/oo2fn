@@ -1,0 +1,35 @@
+{
+  "name": "oo2fn",
+  "version": "1.0.0",
+  "description": "converts any object-oriented function's call to a functional call: o.f(args) => f(o, args)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhanerd/oo2fn.git"
+  },
+  "keywords": [
+    "object",
+    "oriented",
+    "functional",
+    "programming",
+    "converter"
+  ],
+  "author": "Muhannad Ali <muhannad.ali@live.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muhanerd/oo2fn/issues"
+  },
+  "homepage": "https://github.com/muhanerd/oo2fn#readme",
+  "files": [
+    "build"
+  ],
+  "main": "./build/oo2fn.js",
+  "devDependencies": {
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
