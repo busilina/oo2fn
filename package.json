@@ -1,6 +1,6 @@
 {
   "name": "oo2fn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "converts any object-oriented function's call to a functional call: o.f(args) => f(o, args)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,7 +27,7 @@
   "files": [
     "build"
   ],
-  "main": "./build/oo2fn.js",
+  "main": "./build/oo2fn.min.js",
   "devDependencies": {
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
